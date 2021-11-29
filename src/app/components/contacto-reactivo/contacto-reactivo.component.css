@@ -1,0 +1,92 @@
+#contacto {
+    margin-left: 20px;
+    /* */
+    font-family: "Lacquer";
+    font-style: normal;
+    color: rgba(17, 63, 38, 0.932);
+    /* */
+}
+
+#situar {
+    margin-top: 125px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 125px;
+    float: left;
+}
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: rgba(128, 248, 182, 0.932);
+}
+
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: rgba(128, 248, 182, 0.932);
+}
+
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: rgba(128, 248, 182, 0.932);
+}
+
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: rgba(128, 248, 182, 0.932);
+}
+
+.situarcampo {
+    margin-top: 1em;
+}
+
+label {
+    font-size: 25px;
+}
+
+#nom {
+    margin-left: 10.37em;
+}
+
+#ape {
+    margin-left: 9em;
+}
+
+#org {
+    margin-left: 6.08em;
+}
+
+#mail {
+    margin-left: 12.52em;
+}
+
+#tel {
+    margin-left: 8.77em;
+}
+
+#inf {
+    margin-left: 0em;
+}
+
+input {
+    font-style: italic;
+}
+
+#boton {
+    margin-top: 1.5em;
+    margin-left: 86.75em;
+    font-family: Lacquer;
+    font-style: normal;
+    width: 100px;
+    height: 40px;
+    color: rgba(17, 63, 38, 0.932);
+    background-color: rgba(190, 218, 208, 0932);
+    border-radius: 10px;
+}
+
+.error {
+    width: 700px;
+    padding: 0em;
+    background-color: #bedad0;
+    font-size: 23px;
+    color: rgb(196, 77, 77)
+}

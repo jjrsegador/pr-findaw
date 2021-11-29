@@ -1,0 +1,22 @@
+<!-- Cabecera y menú -->
+<div class="cabecera">
+    <img title="Vintage CiviC" id="logo" src="./assets/logo_small_icon_animated.gif" routerLink="home">
+    <span id="mensaje">Vintage CiviC da forma a tus sueños</span>
+    <div>
+
+        <nav>
+            <ul id="menu">
+
+                <li (mouseenter)="cambiaBici=true" (mouseleave)="cambiaBici=false" *ngIf="!cambiaBici" class="situarOpciones" title="Bicicletas">Bicicletas </li>
+                <li (mouseenter)="cambiaBici=true" (mouseleave)="cambiaBici=false" *ngIf="cambiaBici" class="situarOpciones2" title="Bicicletas" routerLink="/bicicletas">Bicicletas</li>
+                <li (mouseenter)="cambiaPatin=true" (mouseleave)="cambiaPatin=false" *ngIf="!cambiaPatin" class="situarOpciones" title="Patinetes">Patinetes</li>
+                <li (mouseenter)="cambiaPatin=true" (mouseleave)="cambiaPatin=false" *ngIf="cambiaPatin" class="situarOpciones2" title="Patinetes" routerLink="/patinetes">Patinetes</li>
+                <li (mouseenter)="cambiaCont=true" (mouseleave)="cambiaCont=false" *ngIf="!cambiaCont" class="situarOpciones" title="Contacto">Contacto</li>
+                <li (mouseenter)="cambiaCont=true" (mouseleave)="cambiaCont=false" *ngIf="cambiaCont" class="situarOpciones2" title="Contacto" routerLink="/contacto">Contacto</li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+</div>

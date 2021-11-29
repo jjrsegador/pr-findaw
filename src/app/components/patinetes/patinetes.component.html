@@ -1,0 +1,49 @@
+<div id="patinetes">
+    <div id="titulo">
+        <h1>Algunos patinetes desarrollados para nuestros clientes</h1>
+
+    </div>
+    <div>
+        <img class="imagenes" (click)="img1()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-1.jpg">
+        <img class="imagenes" (click)="img2()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-2.jpg">
+        <img class="imagenes" (click)="img3()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-3.jpg">
+        <img class="imagenes" (click)="img4()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-4.jpg">
+        <img class="imagenes" (click)="img5()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-5.jpg">
+        <img class="imagenes" (click)="img6()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-6.jpg">
+        <img class="imagenes" (click)="img7()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-7.jpg">
+        <img class="imagenes" (click)="img8()" title="Patinetes Vintage" src="../../../assets/patinetes/patinete-vintage-8.jpg">
+    </div>
+    <br><span>Clickea para ampliar</span>
+
+    <div>
+        <div *ngIf="sel_img1">
+            <img class="box" id="pos_img1" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-1.jpg">
+        </div>
+        <div *ngIf="sel_img2">
+            <img class="box" id="pos_img2" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-2.jpg">
+        </div>
+        <div *ngIf="sel_img3">
+            <img class="box" id="pos_img3" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-3.jpg">
+        </div>
+        <div *ngIf="sel_img4">
+            <img class="box" id="pos_img4" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-4.jpg">
+        </div>
+        <div *ngIf="sel_img5">
+            <img class="box" id="pos_img5" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-5.jpg">
+        </div>
+        <div *ngIf="sel_img6">
+            <img class="box" id="pos_img6" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-6.jpg">
+        </div>
+        <div *ngIf="sel_img7">
+            <img class="box" id="pos_img7" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-7.jpg">
+        </div>
+        <div *ngIf="sel_img8">
+            <img class="box" id="pos_img8" title="Patientes Vintage" src="../../../assets/patinetes/patinete-vintage-8.jpg">
+        </div>
+
+    </div>
+
+    <br><span>El equipo de Vintage CiviC</span>
+    <pie></pie>
+
+</div>

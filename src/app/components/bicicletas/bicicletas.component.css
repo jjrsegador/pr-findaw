@@ -1,0 +1,64 @@
+#bicicletas {
+    font-family: "Lacquer";
+    font-style: normal;
+    color: rgba(17, 63, 38, 0.932);
+}
+
+#titulo {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.imagenes {
+    margin-top: 30px;
+    margin-left: 40px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+span {
+    margin-left: 40px;
+}
+
+.box {
+    margin-left: 350px;
+    margin-top: 40px;
+    max-width: 800px;
+    max-height: 500px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+#pos_img1 {
+    margin-left: 370px;
+}
+
+#pos_img3 {
+    margin-left: 475px;
+}
+
+#pos_img4 {
+    margin-left: 475px;
+}
+
+#pos_img5 {
+    margin-left: 400px;
+}
+
+#pos_img6 {
+    margin-left: 550px;
+}
+
+#pos_img7 {
+    margin-left: 375px;
+}
+
+#pos_img8 {
+    margin-left: 390px;
+}
+
+#pos_img10 {
+    margin-left: 370px;
+}

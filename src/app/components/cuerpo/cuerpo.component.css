@@ -1,0 +1,31 @@
+#present {
+    padding-top: 7em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    font-family: "Lacquer";
+    font-style: normal;
+    color: rgba(17, 63, 38, 0.932);
+}
+
+#foto_taller {
+    width: 890px;
+    height: auto;
+    float: left;
+    border-color: white;
+    border-style: dotted solid;
+    border-right-width: 1em;
+    border-radius: 70px;
+}
+
+#equipo {
+    margin-left: 40px;
+}
+
+#slogan {
+    font-size: 30px;
+}
+
+.texto_taller {
+    text-align: left;
+    font-size: 20px;
+}

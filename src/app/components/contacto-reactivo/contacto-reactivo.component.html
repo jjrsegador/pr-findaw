@@ -1,0 +1,97 @@
+<form [formGroup]="form_contacto" (ngSubmit)="evEnviar()">
+
+    <div id="contacto">
+
+        <div id="situar">
+            <h1>Formulario de contacto</h1>
+
+            <div class="situarcampo" id="nom">
+                <label>Nombre:
+                    <input formControlName="nombre" placeholder="* nombre de pila" size="50" maxlength="30">
+            </label>
+            </div>
+
+            <div class="situarcampo" id="ape">
+                <label>Apellidos:
+                <input formControlName="apellidos" placeholder="* apellidos" size="75" maxlength="50">
+            </label>
+            </div>
+
+            <div class="situarcampo" id="org">
+                <label> Organización:
+              <input formControlName="organizacion" placeholder="nombre de empresa" size="100" maxlength="70">
+            </label>
+            </div>
+
+            <div class="situarcampo" id="mail">
+                <label> Mail:
+              <input formControlName="mail" placeholder="* ejemplo@gmail.com" size="100" maxlength="70">
+            </label>
+            </div>
+
+            <div class="situarcampo" id="tel" required pattern="[0-9] {6}">
+                <label> Teléfono:
+               <input formControlName="telefono" placeholder="* móvil" size="20" maxlength="9">
+            </label>
+            </div>
+
+            <div class="situarcampo" id="inf">
+                <label> Información adicional:
+               <input formControlName="infoadic" placeholder="Información que debamos tener en cuenta" size="145" maxlength="120">
+             </label>
+            </div>
+
+            <div>
+                <input id="boton" type="submit" value="Enviar" [disabled]="this.form_contacto.invalid">
+            </div>
+
+            <!-- ******************************************* -->
+            <!-- Se realizan las validaciones del formulario -->
+            <!-- ******************************************* -->
+            <div class="error" *ngIf="form_contacto.controls['nombre'].invalid && (form_contacto.controls['nombre'].dirty || form_contacto.controls['nombre'].touched)">
+                <div *ngIf="form_contacto.controls['nombre'].errors?.required">
+                    <small>El nombre debe ser informado</small>
+                </div>
+                <div *ngIf="form_contacto.controls['nombre'].errors?.minlength">
+                    <small>Al menos tres caracteres del nombre deben ser informados</small>
+                </div>
+            </div>
+
+            <div class="error" *ngIf="form_contacto.controls['apellidos'].invalid && (form_contacto.controls['apellidos'].dirty || form_contacto.controls['apellidos'].touched)">
+                <div *ngIf="form_contacto.controls['apellidos'].errors?.required">
+                    <small>Los apellidos deben ser informados</small>
+                </div>
+                <div *ngIf="form_contacto.controls['apellidos'].errors?.minlength">
+                    <small>Al menos 4 caracteres del apellido han de ser informados</small>
+                </div>
+            </div>
+
+            <div class="error" *ngIf="form_contacto.controls['mail'].invalid && (form_contacto.controls['mail'].dirty || form_contacto.controls['mail'].touched)">
+                <div *ngIf="form_contacto.controls['mail'].errors?.required">
+                    <small>El correo electrónico debe ser informado</small>
+                </div>
+                <div *ngIf="form_contacto.controls['mail'].errors?.email">
+                    <small>El formato de correo electrónico no es correcto</small>
+                </div>
+            </div>
+
+            <div class="error" *ngIf="form_contacto.controls['telefono'].invalid && (form_contacto.controls['telefono'].dirty || form_contacto.controls['telefono'].touched)">
+                <div *ngIf="form_contacto.controls['telefono'].errors?.required">
+                    <small>El teléfono debe ser informado</small>
+                </div>
+                <div *ngIf="form_contacto.controls['telefono'].errors?.pattern">
+                    <small>Por favor, informe correctamente el teléfono fijo o móvil</small>
+                </div>
+                <div *ngIf="form_contacto.controls['telefono'].errors?.minlength">
+                    <small>Deben introducirse los 9 dígitos del teléfono fijo o móvil</small>
+                </div>
+
+            </div>
+
+        </div>
+
+        <span id="equipo">El equipo de Vintage CiviC</span>
+        <pie></pie>
+
+    </div>
+</form>

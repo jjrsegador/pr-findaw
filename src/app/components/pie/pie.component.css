@@ -1,0 +1,60 @@
+    #global {
+        position: absolute;
+        left: 0;
+        right: 0;
+        font-family: "Lacquer";
+        font-style: normal;
+        color: rgba(17, 63, 38, 0.932);
+    }
+    
+    #pie {
+        height: 175px;
+        background-color: #bedad0;
+        display: flex;
+        flex-wrap: nowrap;
+        border-bottom-style: solid;
+        border-top-style: solid;
+        border-bottom-width: 1px;
+        border-top-width: 1px;
+        border-bottom-color: rgba(17, 63, 38, 0.932);
+        border-top-color: rgba(17, 63, 38, 0.932);
+    }
+    
+    #bloque1 {
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+    
+    #logo {
+        width: 80px;
+    }
+    
+    .bloque2 {
+        margin-left: 90px;
+        text-align: center;
+    }
+    
+    #bloque3 {
+        margin-left: 300px;
+        text-align: center;
+    }
+    
+    a {
+        color: rgba(17, 63, 38, 0.932);
+    }
+    
+    a:hover {
+        color: rgba(41, 141, 86, 0.932);
+    }
+    
+    #bloque4 {
+        margin-top: 40px;
+    }
+    
+    #pagina {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 465px;
+        ;
+    }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "vintagecivic-40d57": {
+      "hosting": {
+        "pr-findaw": [
+          "vintagecivic-40d57"
+        ]
+      }
+    }
+  }
+}
