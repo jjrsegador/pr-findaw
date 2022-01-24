@@ -24,7 +24,7 @@ export class ContactoReactivoComponent implements OnInit {
         apellidos : new FormControl("", [Validators.required, Validators.minLength(4)]),
         organizacion : new FormControl(""),
         mail : new FormControl("", [Validators.required, Validators.email]),
-        telefono : new FormControl("", [Validators.required, Validators.minLength(9) ,Validators.pattern(/[0-9]/)]),
+        telefono : new FormControl("", [Validators.required, Validators.pattern(/[0-9]/), Validators.minLength(9)]),
         infoadic : new FormControl(""),
 
       })
