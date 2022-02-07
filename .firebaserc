@@ -1,14 +1,14 @@
 {
-  "targets": {
-    "vintagecivic-40d57": {
-      "hosting": {
-        "pr-findaw": [
-          "vintagecivic-40d57"
-        ]
-      }
+    "targets": {
+        "vintagecivic-40d57": {
+            "hosting": {
+                "pr-findaw": [
+                    "vintagecivic"
+                ]
+            }
+        }
+    },
+    "projects": {
+        "default": "vintagecivic-40d57"
     }
-  },
-  "projects": {
-    "default": "vintagecivic-40d57"
-  }
 }
