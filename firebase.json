@@ -1,6 +1,14 @@
 {
   "hosting": [
     {
+      "public": "",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
       "target": "pr-findaw",
       "public": "dist/pr-findaw",
       "ignore": [
