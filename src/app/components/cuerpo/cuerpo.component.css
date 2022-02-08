@@ -18,22 +18,19 @@
     border-radius: 70px;
 }
 
-#equipo {
-    margin-left: 40px;
-}
-
 #slogan {
     /* font-size: 30px; */
     font-size: 150%;
+    text-align: right;
 }
 
 .texto_taller {
-    text-align: left;
+    text-align: right;
     /* font-size: 20px; */
     font-size: 120%;
 }
 
-#equipox {
-    text-align: left;
+#equipo {
+    text-align: right;
     font-size: 100%;
 }
