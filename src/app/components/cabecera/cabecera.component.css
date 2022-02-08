@@ -14,24 +14,27 @@
     border-top-width: 1px;
     border-bottom-color: rgba(17, 63, 38, 0.932);
     border-top-color: rgba(17, 63, 38, 0.932);
-    width: 1519px;
+    width: 100%;
 }
 
 #logo {
     margin-left: 40px;
-    width: 40px;
+    /* width: 40px; */
+    width: 3%;
 }
 
 #mensaje {
     margin-left: 35px;
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 200%;
 }
 
 #menu {
     list-style-type: none;
     display: inline-flex;
-    padding-left: 160px;
-    font-size: 25px;
+    margin-left: 160px;
+    /* font-size: 25px; */
+    font-size: 160%;
 }
 
 .situarOpciones {
