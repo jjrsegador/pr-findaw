@@ -27,12 +27,13 @@
     margin-left: 35px;
     /* font-size: 35px; */
     font-size: 200%;
+    width: 1519px;
 }
 
 #menu {
     list-style-type: none;
     display: inline-flex;
-    margin-left: 160px;
+    margin-right: 40px;
     /* font-size: 25px; */
     font-size: 160%;
 }
