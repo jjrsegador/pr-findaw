@@ -6,11 +6,12 @@
     font-style: normal;
     color: rgba(17, 63, 38, 0.932);
     width: 1475px;
+    text-align: letf;
 }
 
 #foto_taller {
     /* width: 890px; */
-    width: 58%;
+    width: 56%;
     float: left;
     border-color: white;
     border-style: dotted solid;
@@ -24,11 +25,6 @@
 }
 
 .texto_taller {
-    text-align: left;
     /* font-size: 20px; */
-    font-size: 120%;
-}
-
-#equipo {
-    text-align: left;
+    font-size: 115%;
 }
